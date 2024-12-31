@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        h1, h2, h3 {
+            color: #00ffc3;
+        }
+        .btn-primary {
+            background-color: #00ffc3;
+            border-color: #00ffc3;
+        }
+        .btn-primary:hover {
+            background-color: #00d6a9;
+            border-color: #00d6a9;
+        }
+        .portfolio-item {
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="text-center py-5">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="img-fluid mb-4" style="width: 120px;">
+            <h1>HI! I'M Rahidur Rahman</h1>
+            <p class="lead">Web Developer | React Developer | Programmer</p>
+            <p>I am an enthusiastic developer who loves building simple frameworks to solve the world's problems. I know the best HTML, CSS, and Bootstrap to build stunning websites!</p>
+            <div class="d-flex justify-content-center">
+                <a href="#portfolio" class="btn btn-primary me-3">Portfolio</a>
+                <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <div class="row">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <img src="images/Travel-search.png" alt="Portfolio Item 1" class="img-fluid mb-3">
+                        <h3>Online University</h3>
+                        <p class="small text-muted">A detailed map and university system showcasing locations and student resources.</p>
+                        <p>Technologies: HTML, CSS, JavaScript, Bootstrap</p>
+                        <a href="#" class="btn btn-primary btn-sm">View More</a>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <img src="images/travel-guru-map.png" alt="Portfolio Item 2" class="img-fluid mb-3">
+                        <h3>Online University</h3>
+                        <p class="small text-muted">A location-based ride-sharing platform for optimized travel planning.</p>
+                        <p>Technologies: HTML, CSS, Bootstrap, JavaScript</p>
+                        <a href="#" class="btn btn-primary btn-sm">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-4">Expertise</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Languages</h5>
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-primary">CSS</span>
+                    <span class="badge bg-primary">JavaScript</span>
+                </div>
+                <div class="col-md-4">
+                    <h5>Frameworks</h5>
+                    <span class="badge bg-primary">Bootstrap</span>
+                    <span class="badge bg-primary">React</span>
+                </div>
+                <div class="col-md-4">
+                    <h5>Tools</h5>
+                    <span class="badge bg-primary">VSCode</span>
+                    <span class="badge bg-primary">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Education</h2>
+            <p>BSc in Chemistry, Khulna University, Bangladesh</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact with Me</h2>
+            <form action="#" method="POST" class="mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Rahidur Rahman. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
